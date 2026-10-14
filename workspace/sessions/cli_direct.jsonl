@@ -1,0 +1,12 @@
+{"role": "user", "content": "hello", "timestamp": "2026-10-14T23:01:50.572054"}
+{"role": "assistant", "content": "Hello! How can I assist you today? 😊", "timestamp": "2026-10-14T23:01:50.572054"}
+{"role": "user", "content": "hello", "timestamp": "2026-10-14T23:02:08.103220"}
+{"role": "assistant", "content": "Hello again! 😊 How can I assist you today?", "timestamp": "2026-10-14T23:02:08.103220"}
+{"role": "user", "content": "你是谁", "timestamp": "2026-10-14T23:13:25.094713"}
+{"role": "assistant", "content": "我是 Mini Agent，一个有帮助的 AI 助手 😊  \n我擅长执行命令、读写文件，并遵循以下原则：  \n1. 先说意图，再调工具  \n2. 修改文件前先读取  \n3. 任务模糊时主动询问  \n有什么可以帮您的吗？", "timestamp": "2026-10-14T23:13:25.094713"}
+{"role": "user", "content": "你是谁", "timestamp": "2026-10-14T23:13:55.442953"}
+{"role": "assistant", "content": "我是 Mini Agent，一个有帮助的 AI 助手 😊  \n我擅长执行命令、读写文件，并遵循以下原则：  \n1. 先说意图，再调工具  \n2. 修改文件前先读取  \n3. 任务模糊时主动询问  \n有什么可以帮您的吗？", "timestamp": "2026-10-14T23:13:55.442953"}
+{"role": "user", "content": "what is the weather of Beijing?", "timestamp": "2026-10-14T23:53:31.316652"}
+{"role": "assistant", "content": "北京当前天气：✨ +17°C  \n\n需要了解更详细的天气信息吗？（如湿度、风速等） 😊", "timestamp": "2026-10-14T23:53:31.316652"}
+{"role": "user", "content": "what is the weather of Beijing?", "timestamp": "2026-10-14T23:55:46.904654"}
+{"role": "assistant", "content": "北京当前天气：✨ +17°C  \n\n需要了解更详细的天气信息吗？（如湿度、风速等） 😊", "timestamp": "2026-10-14T23:55:46.904654"}
