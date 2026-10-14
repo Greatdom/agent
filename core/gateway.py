@@ -3,7 +3,7 @@ import asyncio
 from core.agent_loop import AgentLoop, WORKSPACE
 from core.content import ContextBuilder
 from core.init_workspace import init_workspace
-from core.route_outbount import route_outbound
+from core.route_outbound import route_outbound
 from message_bus.CLI_channel import CLIChannel
 from message_bus.base_channel import BaseChannel
 from message_bus.message_bus import MessageBus
