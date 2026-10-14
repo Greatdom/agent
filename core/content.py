@@ -1,6 +1,8 @@
 from datetime import datetime
 from pathlib import Path
 
+from tool.skills_loader import SkillsLoader
+
 """
 System Prompt = 身份
               + AGENTS.md / SOUL.md / USER.md
@@ -18,6 +20,7 @@ class ContextBuilder:
 
     def __init__(self, workspace: Path):
         self.workspace = workspace
+        self.skills = SkillsLoader(workspace)
 
     def build_system_prompt(self) -> str:
         parts = [self._get_identity()]
@@ -35,6 +38,15 @@ class ContextBuilder:
             memory = memory_file.read_text(encoding="utf-8")
             if memory.strip():
                 parts.append(f"# Memory\n\n{memory}")
+
+        # 加载Skills
+        summary = self.skills.build_skills_summary()
+        if summary:
+            parts.append(
+                "# Skills\n\n"
+                "以下技能扩展了你的能力。需要时用 read_file 读取 SKILL.md 获取详情。\n\n"
+                + summary
+            )
 
         return "\n\n---\n\n".join(parts)
 
